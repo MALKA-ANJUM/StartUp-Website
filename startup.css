@@ -6,3 +6,549 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
+img{
+    width: 100%;
+}
+/* ************feature*********** */
+.container{
+    background: url(mac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.6); 
+}
+.logo{
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 1em; 
+}
+.logo:hover{
+    background: #ccc;
+    padding: 1em; 
+}
+nav ul{
+    display: flex;   
+}
+nav ul li{
+    list-style: none;
+    padding: 1em 0; 
+}
+nav ul li a:hover{
+    background: #ccc;
+    padding: 1em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    padding: 1em;
+}
+.fas.fa-bars{
+    display: none;
+    padding: 1em;
+}
+.title{
+    position: absolute;
+    top: 38%;
+    left: 3%;   
+}
+.title h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 400;
+}
+.title p{
+    color: #FAF9F9;
+    font-size: 1.1rem;
+    padding: 3em 0;  
+}
+.title a{
+    background: #9C9D9E;
+    padding: 1.3em;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+.social{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 1.2rem;
+    color: #9D9D9E;
+}
+/* ***************about******************* */
+.about-title{
+    text-align: center;
+    padding: 5% 2% 2% 2%;
+}
+.about-title h3{
+    font-weight: 400;
+    padding: 1.2em;
+    font-size: 1.5rem;
+}
+.about-title p{
+    font-size: 1.15rem;
+}
+.about-feature{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5% 2%;
+}
+
+.feature-card i{
+     font-size: 4em;  
+}
+.feature-card h4{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 1em;
+}
+.feature-card p{
+    font-size: 0.9em;
+    line-height: 1.7;
+}
+.design{
+    display: flex;
+    justify-content: space-around;
+    background: #F1F1F1;
+    padding: 8% 0;
+}
+.design-info h3{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 3% 0;
+    
+}.design-info p{
+    line-height: 1.8;
+    padding-bottom: 8%;
+}
+.design-info a{
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    text-transform: capitalize; 
+}
+.design-img img{
+    border-radius: 10px;  
+}
+/* *************team******************** */
+.team{
+    padding: 5% 0;
+}
+.team-title{
+    text-align: center;
+    padding: 4%;
+}
+.team-title h3{
+    padding: 1%;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.team-title p{
+    font-size: 1.2rem;
+}
+.team-card{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;  
+}
+.card{
+   width: 24%; 
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+.card-info{
+    padding: 1em;
+}
+.card-info h4{
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+}
+.card-info h4 span{
+    font-size: 1rem;
+    color: #999999;
+}
+.card-info p{
+    line-height: 1.8;
+    padding: 1em 0;
+    font-size: 1rem;
+}
+.card-info a{
+    background: #F1F1F1;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em;
+}
+.card .card-img{
+    filter: grayscale();   
+}
+.achievements ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #616161;
+    margin: 4em 0;
+}
+.achievements ul li{
+    list-style: none;
+    text-align: center;
+    color: white;
+    padding: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.achievements ul li span{
+    font-size: 1rem;
+}
+/* **********work***************/
+.work-title{
+    text-align: center;
+    padding-bottom: 3em;
+}
+.work-title h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.work-title p{
+    padding: 1em;
+}
+.work-file{
+    padding: 1.5em 1.5em 5em 1.5em;  
+}
+.file-img{ 
+    display: flex;
+    justify-content: space-between; 
+    padding-bottom: 1em;     
+}
+.file-img img{
+    width: 24%;  
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    background: #F1F1F1;
+    padding: 5em 2em;
+}
+.skills-info{
+    width: 45%;
+}
+.skills-info h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.skills-info p{
+    line-height: 1.6;
+    padding: 1em 0;
+}
+.skills-bar{
+    width: 45%;
+}
+.skills-bar .bar{
+    padding: 0.5em;
+}
+.skills-bar .bar .bar-info{
+    margin: 0.8em 0;
+}
+.skills-bar .bar .bar-info span{
+    font-size: 1em;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: #000;
+}
+.skills-bar .bar .progress-line{
+    height: 30px;
+    width: 100%;
+    background: #9E9E9E;
+    position: relative;
+}
+.skills-bar .bar .progress-line span{
+    height: 100%;   
+    background: #616161;
+    position: absolute;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}
+.skills-bar .bar .progress-line.photography span{
+    width: 95%;
+}
+.skills-bar .bar .progress-line.web span{
+    width: 85%;
+}
+.skills-bar .bar .progress-line.photoshop span{
+    width: 75%;
+}
+/* ************price************ */
+.price{
+    background: #616161;
+    padding: 7em 2em;
+}
+.price-title{
+    text-align: center;
+    padding: 3em;
+    color: #fff;
+}
+.price-title h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.price-title p{
+    padding: 1em;
+}
+.price-card{
+    display: flex;
+    justify-content: space-around;   
+}
+.price-card .card{
+    border: 0;
+    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.6);
+    width: 30%;
+}
+.price-card .card.card_1{
+    margin: 1em 0;
+}
+.price-card .card:hover{
+    box-shadow: 0 0 15px rgba( 0, 0, 0, 0.6);
+}
+.price-card .card-head.card-head_2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    background: #F44336;
+    color: #fff;
+    padding: 2em 0;
+}
+.price-card .card-head.card-head_1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 1.5em 0;
+}
+.price-card .card .card-feature ul{
+    list-style: none;
+    text-align: center;
+    color: #000;  
+    background: #fff;
+}
+.price-card .card .card-feature ul li{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    text-transform: capitalize;
+    padding: 1.2em 0;
+}
+.price-card .card .card-feature ul li span{
+    font-weight: 00;
+}
+.price-card .card-price{
+    font-size: 2rem;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    padding: 1em 0;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+}
+.price-card .card-price span{
+    font-size: 1rem;
+    color: #ACACAC;
+}
+.price-card .card-btn{
+    font-size: 1.2rem;
+    background: #F1F1F1;
+    text-align: center;
+    padding: 1.5em 0;
+}
+.price-card .card-btn button{
+    border: 0;
+    background: #000;
+    color: #fff;
+    padding: 1em 1.5em;
+    text-transform: capitalize;
+}
+.price-card .card-btn button:hover{
+    background: #ACACAC;
+    color: #000;
+}
+/* ********************CONTACT******************** */
+.contact{
+    background: #F1F1F1;
+    padding: 7em 2em;
+}
+.contact-title{
+    text-align: center;
+    padding: 3em;  
+}
+.contact-title h3{
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.contact-title p{
+    padding: 1em;
+}
+.contact-info{
+    padding: 1em 0;
+}
+.contact-info p{
+    font-size: 0.9rem;
+    color: #000;
+    padding-bottom: 1em;
+}
+.contact-info img{
+    margin: 1em 0;
+    filter: grayscale();  
+}
+.contact-info button{
+    border: 0;
+    padding: 1em;
+    font-size: 0.81rem;
+    letter-spacing: 0.8px;
+    margin-top: 1.5em;
+    background: #000;
+    color: #fff;
+    margin-bottom: 3em;
+}
+.contact-info input{
+    width: 100%;
+    padding: 0.8em;
+    margin: 0.3em 0;
+}
+/* ***********footer************** */
+.footer{
+    background: #000;
+    padding: 5%;
+    text-align: center;
+    color: #fff;
+}
+.footer a{
+    text-decoration: none;
+    background: #F1F1F1;
+    padding: 0.8em;
+    color: #000;
+}
+.footer .social_links{
+    padding: 2em;
+}
+.social_links i{
+    font-size: 1.5em;
+}
+.footer p{
+    font-size: 1em;
+}
+.footer span{
+    border-bottom: 1px solid #fff;
+}
+@media screen and (max-width:660px){
+    .fas.fa-bars{
+        display: block;
+    }
+    nav ul{
+        width: 50%;
+        position: absolute;  
+        top: 0;   
+        left: 0;
+        z-index: 2;
+        flex-direction: column;
+        background: #000;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    #menu{
+        overflow: hidden;
+        transition: 0.5s
+    }
+    .title{
+        position: absolute;
+        top: 30%;
+        left: 3%;   
+        padding: 2.2em;
+    }
+    .social{
+        left: 10%;
+    }
+    .title h1{
+        font-size: 3.4rem;
+        font-weight: 400;
+        
+    }
+    .title p{
+        font-size: 1.1rem;
+        padding: 2.5em 0;       
+    }  
+    .about-feature{
+        padding: 8%;
+        display: block;
+    }
+    .feature-card{
+        padding: 5% 0;
+    }
+    .design{
+        display: block;
+        padding: 15% 5%;
+        
+    }
+    .design-info{
+        padding: 5% 0;
+    }
+    .team-title{
+        padding: 5em;
+    }
+    .team-card{
+        flex-direction: column;
+        justify-content: center;
+        margin: 4%;
+    }
+    .card{
+        width: 100%;
+        margin: 2% 0;      
+    }
+    .achievements ul{
+        flex-direction: column;
+        padding: 2em;   
+    }
+    .achievements ul li{   
+        padding: 0.5em;
+    }
+    .file-img{
+        flex-direction: column;
+    }
+    .file-img img{
+       width: 100%;  
+    }
+    .skills{
+        flex-direction: column; 
+    }
+    .skills-info{
+        width: 100%;
+    }
+    .skills-bar{
+        width: 100%;
+    }
+    .price-card{
+        flex-direction: column;
+    }
+    .price-card .card{
+        width: 100%;
+    }
+}
